@@ -56,9 +56,6 @@ def serialize_sqlalchemy_obj(sqlalchemy_obj):
 
 
 import plotly.graph_objects as go
-import plotly.express as px
-import numpy as np
-from datetime import datetime
 
 def calculate_average_speed(data):
     if len(data) < 2:

@@ -14,9 +14,6 @@ loop = asyncio.get_event_loop()
 
 @signal_router.post('/warning')
 async def warning(warning_data: WarningInput):
-    """
-    COM WARNING BLOCK LATER
-    """
     print('____________________________________________')
     print('WARNING')
     print(warning_data)
